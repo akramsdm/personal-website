@@ -1,0 +1,80 @@
+body{background-color: black;}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+a{padding:0px;}
+a:hover{border-bottom: 2px solid white; color:white;}
+h5{padding: 0px; margin:0px;}
+.header {
+    color: black;
+    padding: 1.5rem 0;
+    text-align: center;
+    font-weight:200;
+    line-height:1;
+    margin-bottom: 20px;
+}
+.intro {
+    padding: 2rem 1rem;
+    background: #f8f9fa;
+    text-align: center;
+}
+.card{border:none; background: rgb(218, 180, 219); margin-bottom:4px;  padding-bottom: 5px;}
+.card-title{color:white; font-size: 1rem; padding-top: 10px;}
+.card-text{color: orange; font-size: 0.8rem; border-bottom: solid grey 0.5px; padding-bottom: 5px;}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+.social-icons a:hover {
+    color: #0056b3;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+.social-icons a:hover {
+    color: #0056b3;
+}
+
+body{margin: 0px;}
+.gallery-header {
+    background: orange
+    padding: 10px 0;
+    text-align: center;
+    height: 100px;
+}
+.gallery-header h1 {
+    margin: 0;
+}
+.gallery-image {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+.video-section {
+    margin: 50px 0;
+    text-align: center;
+}
+.video-section h2 {
+    margin-bottom: 20px;
+}
+img{max-height: 300px;}
