@@ -78,3 +78,5 @@ body{margin: 0px;}
     margin-bottom: 20px;
 }
 img{max-height: 300px;}
+.nav-item a{font-size:1.5rem;}
+.nav-item a:hover{color: red;}
